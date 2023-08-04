@@ -1,0 +1,57 @@
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    background-color: hsl(53, 40%, 30%);
+}
+
+.top-left-image {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.left-container,
+.right-container {
+    width: 45%;
+    padding: 20px;
+    background-color: wheat;
+}
+
+.resume {
+    max-width: 100%;
+    border: 1px solid beige;
+    padding: 20px;
+    background-color: beige;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+h2, h3 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+p {
+    margin: 5px 0;
+}
