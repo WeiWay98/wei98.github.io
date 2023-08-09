@@ -55,3 +55,15 @@ h2, h3 {
 p {
     margin: 5px 0;
 }
+.top-left {
+    position: relative; /* This is needed for z-index to work */
+    z-index: 1; /* Place text above the image */
+}
+
+.bottom-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px; /* Adjust the width as needed */
+    z-index: -1; /* Place image below other content */
+}

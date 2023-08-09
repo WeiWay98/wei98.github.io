@@ -1,0 +1,59 @@
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    background-color: hsl(53, 40%, 30%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header {
+    color: brown;
+}
+
+.profile-image {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-column {
+    width: 50%;
+    padding-right: 20px;
+    border: 10px solid white;
+}
+
+.right-column {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.resume {
+    max-width: 100%;
+    border: 1px solid beige;
+    padding: 20px;
+    background-color: beige;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.travy {
+    width: 550px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.h1 {
+    color: red;
+}
